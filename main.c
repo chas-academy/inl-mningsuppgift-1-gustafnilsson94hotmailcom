@@ -16,7 +16,7 @@ int main()
 
     // Create for-loop that counts dice rolls
 
-    for(int i = 0; i <= 100; i++)
+    for(int i = 0; i < 100; i++)
     {
         diceRolls[i] = (rand() % 6) + 1;
     }
@@ -28,7 +28,7 @@ int main()
     int five = 0;
     int six = 0;
 
-    for(int i = 0; i <= 100; i++)
+    for(int i = 0; i < 100; i++)
     {
         if(diceRolls[i] == 1)
         {
