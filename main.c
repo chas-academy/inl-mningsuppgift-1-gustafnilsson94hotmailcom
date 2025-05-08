@@ -9,10 +9,21 @@ int main()
    
     //  Your code goes here
 
-    // Skapar variabler
+    // Created variables
     int diceRolls[100];
     float averageSum;
     int totalSum = 0;
+
+    // Create for-loop that counts dice rolls
+
+    for(int i = 0; i <= 100; i++)
+    {
+        diceRolls[i] = (rand() % 6) + 1;
+        printf("%d\n", &diceRolls[i]);
+    }
+
+
+  
 
     return 0;
 }
