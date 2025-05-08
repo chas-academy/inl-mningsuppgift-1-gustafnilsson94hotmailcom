@@ -9,5 +9,10 @@ int main()
    
     //  Your code goes here
 
+    // Skapar variabler
+    int diceRolls[100];
+    float averageSum;
+    int totalSum = 0;
+
     return 0;
 }
